@@ -118,7 +118,7 @@ footer {
     <div class="eyebrow">Privacy</div>
     <h1>Cue Privacy Policy</h1>
     <p class="lede">Cue is a local-only, hands-free study app. The architecture below is the policy &mdash; the app cannot do otherwise, because the code does not contain the means to.</p>
-    <p class="meta">Last updated: 2026-06-03 · Rizk Corsight · <a href="mailto:rizkcorsight@rizkcorsight.com">rizkcorsight@rizkcorsight.com</a></p>
+    <p class="meta">Last updated: 2026-06-08 · Rizk Corsight · <a href="mailto:rizkcorsight@rizkcorsight.com">rizkcorsight@rizkcorsight.com</a></p>
 </header>
 
 <div class="rule"></div>
@@ -128,7 +128,7 @@ footer {
 <li><strong>No accounts.</strong> Cue does not ask for a username, email, phone number, or login of any kind. There is no server-side account, because there is no server.</li>
 <li><strong>No analytics.</strong> Cue includes no Firebase, Google Analytics, Mixpanel, Amplitude, Sentry, Crashlytics, or any other analytics or telemetry SDK. There are no tracking pixels, no install pings, no usage counters.</li>
 <li><strong>No advertising.</strong> Cue shows no ads and links to no ad networks.</li>
-<li><strong>No network.</strong> Cue makes no network requests of any kind. There is no endpoint to call, no sync service, and no remote logging &mdash; the app works entirely offline.</li>
+<li><strong>No network from Cue.</strong> Cue has no server of its own and makes no network requests of its own &mdash; no endpoint to call, no sync service, no remote logging. Your study data never leaves your device. The one exception is the optional in-app purchase, which Apple&rsquo;s App Store or Google Play handle on their own servers (see <em>Purchases</em> below) &mdash; Cue never sees your payment details, and no study data is involved.</li>
 <li><strong>No cloud service.</strong> Cue does not use iCloud sync, Google Drive, or any third-party cloud. Your decks and study history live in the app&rsquo;s private sandbox on this device. (If you choose to back up your device to iCloud, your Cue data is included in your own private Apple device backup under your Apple ID; the developer has no access to it.)</li>
 <li><strong>No third-party sharing.</strong> Cue does not share, sell, or rent your data to anyone, because Cue has no data to share &mdash; see above. There is no cross-app or cross-site tracking.</li>
 </ul>
@@ -153,6 +153,9 @@ footer {
 
 <h2>On-device card writing (Apple Foundation Models)</h2>
 <p>On a device that supports Apple&rsquo;s Foundation Models framework (iOS 26+ with Apple Intelligence enabled, on a capable iPhone), Cue may use the on-device model to turn your study material into clearer question-and-answer cards. This processing happens entirely on your device: your text is not uploaded, and the generated cards are stored only on your device. If Apple Intelligence is not available, Cue uses a deterministic, on-device card writer instead &mdash; the feature works the same way, everywhere, with no network involved.</p>
+
+<h2>Purchases</h2>
+<p>Cue is free to download with a 3-day full-access trial, after which a single optional one-time purchase unlocks it permanently (no subscription). That purchase is handled entirely by <strong>Apple&rsquo;s App Store</strong> (iOS) or <strong>Google Play</strong> (Android) through their own in-app purchase systems &mdash; when you start the trial or buy the unlock, the store contacts Apple&rsquo;s or Google&rsquo;s servers to record and verify it. Cue never sees or receives your name, payment card, or billing details, and no study data is involved in a purchase. The developer receives only anonymous, aggregate sales figures from Apple and Google &mdash; never anything tied to you. Apple&rsquo;s and Google&rsquo;s handling of the transaction is governed by their own privacy policies.</p>
 
 <h2>Children</h2>
 <p>Cue does not knowingly collect any data from anyone of any age, because it collects nothing. The app contains no objectionable content and is rated 4+ in the App Store catalog.</p>
